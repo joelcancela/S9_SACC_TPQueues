@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.unice.polytech.si5.cc.jcancela.HelloAppEngineTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.848 s - in fr.unice.polytech.si5.cc.jcancela.HelloAppEngineTest
