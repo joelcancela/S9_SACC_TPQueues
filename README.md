@@ -53,3 +53,6 @@ for Java 7.
 Our usual process is to test, update the versions, then test again before committing back.
 
 [plugin]: http://www.mojohaus.org/versions-maven-plugin/
+
+
+https://cloud.google.com/appengine/docs/standard/java/taskqueue/push/creating-handlers
