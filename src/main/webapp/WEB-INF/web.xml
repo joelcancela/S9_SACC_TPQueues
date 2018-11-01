@@ -12,6 +12,10 @@
     <servlet-class>fr.unice.polytech.si5.cc.jcancela.LagServlet</servlet-class>
   </servlet>
   <servlet>
+    <servlet-name>datastore</servlet-name>
+    <servlet-class>fr.unice.polytech.si5.cc.jcancela.DatastoreServlet</servlet-class>
+  </servlet>
+  <servlet>
     <servlet-name>enqueue</servlet-name>
     <servlet-class>fr.unice.polytech.si5.cc.jcancela.Enqueue</servlet-class>
   </servlet>
@@ -30,6 +34,10 @@
   <servlet-mapping>
     <servlet-name>enqueue</servlet-name>
     <url-pattern>/push</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>datastore</servlet-name>
+    <url-pattern>/datastore</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>handler</servlet-name>
