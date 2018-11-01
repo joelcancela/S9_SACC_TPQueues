@@ -16,6 +16,10 @@
     <servlet-class>fr.unice.polytech.si5.cc.jcancela.DatastoreServlet</servlet-class>
   </servlet>
   <servlet>
+    <servlet-name>datastoreMagasin</servlet-name>
+    <servlet-class>fr.unice.polytech.si5.cc.jcancela.DatastoreServletAncestor</servlet-class>
+  </servlet>
+  <servlet>
     <servlet-name>enqueue</servlet-name>
     <servlet-class>fr.unice.polytech.si5.cc.jcancela.Enqueue</servlet-class>
   </servlet>
@@ -38,6 +42,10 @@
   <servlet-mapping>
     <servlet-name>datastore</servlet-name>
     <url-pattern>/datastore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>datastoreMagasin</servlet-name>
+    <url-pattern>/datastoreMagasin</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>handler</servlet-name>

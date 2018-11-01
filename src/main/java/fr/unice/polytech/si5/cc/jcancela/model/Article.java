@@ -10,6 +10,7 @@ public class Article {
 	String nom;
 	double prix;
 	int qte;
+	Magasin magasin;
 
 	public Article() {
 	}
@@ -44,4 +45,11 @@ public class Article {
 		this.qte = qte;
 	}
 
+	public Magasin getMagasin() {
+		return magasin;
+	}
+
+	public void setMagasin(Magasin magasin) {
+		this.magasin = magasin;
+	}
 }
