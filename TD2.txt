@@ -1,4 +1,0 @@
-gcloud beta emulators datastore start # Start db
-
-set_vars.cmd
-mvn appengine:devserver
