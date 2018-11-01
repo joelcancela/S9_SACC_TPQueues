@@ -22,7 +22,7 @@ mvn appengine:devserver
 #### CloudStore
 
 1. Bucket Multi-Regional par défaut
-2-4. Manque dépendance maven ???
+2. ->4. Manque dépendance maven ???
 
 #### Pour les longues soirées d'hiver
 
