@@ -1,5 +1,7 @@
-appengine-skeleton
+S9_SACC_TP
 ==================
+
+Pratical work for the Software Architecture for Cloud Computing course.
 
 This is a generated application from the appengine-skeleton archetype.
 
@@ -21,11 +23,19 @@ detailed instructions.
 ## Maven
 ### Running locally
 
-    mvn appengine:run
+    set_vars.cmd
+    mvn appengine:devserver
+    # mvn appengine:run
+    # mvn appengine:devserver
+
+### Launch Datastore emulator
+
+    gcloud beta emulators datastore start
 
 ### Deploying
 
     mvn appengine:deploy
+    mvn appengine:update
 
 ## Testing
 
