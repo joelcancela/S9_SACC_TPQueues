@@ -1,4 +1,4 @@
-S9_SACC_TP
+SACC AppEngine TP1:Queues & TP2
 ==================
 
 Pratical work for the Software Architecture for Cloud Computing course.
